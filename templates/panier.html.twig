@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1 class="row justify-content-center">{{ nbArticles }} articles dans le panier</h1>
+
+    <div class="row justify-content-center">
+        <a class="btn btn-dark" href="{{ path('app_home') }}">Retour</a>
+    </div>
+{% endblock %}

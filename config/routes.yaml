@@ -7,5 +7,13 @@ app_contact:
 app_about:
     path: /about
     controller: App\Controller\HomeController::about
+app_page2:
+    path: /page2/{id}
+    controller: App\Controller\BlogController::page2
+    requirements:
+        id: '[0-9]+'
+
+
+
 
 
